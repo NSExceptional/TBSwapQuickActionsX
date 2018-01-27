@@ -1,0 +1,9 @@
+Package: com.pantsthief.tbswapquickactionsx
+Name: TBSwiapQuickActionsX
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Swap the camera and flashlight buttons on the iPhone X.
+Maintainer: Tanner Bennett
+Author: Tanner Bennett
+Section: Tweaks
