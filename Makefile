@@ -2,11 +2,11 @@ export TARGET = iphone:latest:latest
 include $(THEOS)/makefiles/common.mk
 
 
-TWEAK_NAME = TBSwiapQuickActionsX
-TBSwiapQuickActionsX_FILES = Tweak.xm
-TBSwiapQuickActionsX_CFLAGS += -Wno-objc-property-no-attribute
-TBSwiapQuickActionsX_CFLAGS += -Wno-deprecated-declarations
-#TBSwiapQuickActionsX_CFLAGS += -fobjc-arc
+TWEAK_NAME = TBSwapQuickActionsX
+TBSwapQuickActionsX_FILES = Tweak.xm
+TBSwapQuickActionsX_CFLAGS += -Wno-objc-property-no-attribute
+TBSwapQuickActionsX_CFLAGS += -Wno-deprecated-declarations
+#TBSwapQuickActionsX_CFLAGS += -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
